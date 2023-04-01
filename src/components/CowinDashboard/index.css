@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  padding: 20px;
+  color: #cbd5e1;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 26px;
+  margin-right: 6px;
+}
+.logo-name {
+  color: #2cc6c6;
+  font-size: 22px;
+}
+.main-heading {
+  color: #cbd5e1;
+  font-size: 20px;
+}
