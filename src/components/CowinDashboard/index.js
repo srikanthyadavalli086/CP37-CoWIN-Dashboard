@@ -30,11 +30,8 @@ class CowinDashBoard extends Component {
     // const jwtToken = Cookies.get('jwt_token')
 
     const apiUrl = 'https://apis.ccbp.in/covid-vaccination-data'
-    const options = {
-      method: 'GET',
-    }
 
-    const response = await fetch(apiUrl, options)
+    const response = await fetch(apiUrl)
     const data = await response.json()
 
     if (response.ok) {
